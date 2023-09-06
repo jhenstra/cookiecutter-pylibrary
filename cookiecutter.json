@@ -3,7 +3,7 @@
     "email": "contact@ionelmc.ro",
     "website": "https://blog.ionelmc.ro",
     "project_name": "Nameless",
-    "repo_name": "python-{{ cookiecutter.project_name|lower|replace(' ','-') }}",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ','-') }}",
     "repo_hosting": ["github.com", "gitlab.com", "other domain not listed"],
     "repo_hosting_domain": "{{ cookiecutter.repo_hosting if cookiecutter.repo_hosting != 'other domain not listed' else '' }}",
     "repo_username": "ionelmc",
